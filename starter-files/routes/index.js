@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const storeController = require("../controllers/storeController");
 
+// Error handler wrapper for async requests
 const { catchErrors } = require("../handlers/errorHandlers");
 
 // Routes
